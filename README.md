@@ -46,7 +46,7 @@ Returns beer object.
 
 #### craft.untappd.beer.photos
 
-Returns an array of checkins at the brewery with photos attached.
+Returns an array of checkins associated with the selected beer with photos attached.
 
 ```
 {% set checkins = craft.untappd.beer.photos({'id': 240862}) %}
