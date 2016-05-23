@@ -1,4 +1,4 @@
-# Craft Untappd Plugin
+# Craft Untappd Plugin 🍺
 
 Untappd v4 API endpoints as craft template variables.
 
