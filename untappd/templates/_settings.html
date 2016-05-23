@@ -1,0 +1,27 @@
+{% import '_includes/forms' as forms %}
+
+<h1>API Settings</h1>
+
+<div class="untappd-field-container">
+{{ forms.textField({
+	label: "Client ID"|t,
+	id: 'clientId',
+	name: 'clientId',
+	value: settings.clientId,
+	errors: settings.getErrors('clientId')
+}) }}
+{{ forms.textField({
+	label: "Client Secret"|t,
+	id: 'clientSecret',
+	name: 'clientSecret',
+	value: settings.clientSecret,
+	errors: settings.getErrors('clientSecret')
+}) }}
+{{ forms.textField({
+	label: "Cache Duration"|t,
+	id: 'cacheDuration',
+	name: 'cacheDuration',
+	value: settings.cacheDuration,
+	errors: settings.getErrors('cacheDuration')
+}) }}
+</div>
